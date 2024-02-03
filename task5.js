@@ -1,4 +1,5 @@
-// Base class for Animal
+
+
 class Kingdom {
     constructor(name, classification, warmBlooded, backbone, sound, habitat, numberOfLegs) {
         this.name = name;
@@ -109,18 +110,18 @@ class Kingdom {
   
 
 
-//   const butterfly = new Anthropoda("Butterfly");
-//   const goldfish = new Fish("Goldfish");
-//   const frog = new Amphibia("Frog");
-//   const snake = new Reptile("Adder");
-//   const eagle = new Ave("Eagle");
-//   const lion = new Mammal("Lion", sound="Roar");
+  const butterfly = new Anthropoda("Butterfly");
+  const goldfish = new Fish("Goldfish");
+  const frog = new Amphibia("Frog");
+  const snake = new Reptile("Adder");
+  const eagle = new Ave("Eagle");
+  const lion = new Mammal("Lion", sound="Roar");
   
 
-//   butterfly.displayKingdom();
-//   goldfish.displayKingdom();
-//   frog.displayKingdom();
-//   snake.displayKingdom();
-//   eagle.displayKingdom();
-//   lion.displayKingdom();
+  butterfly.displayKingdom();
+  goldfish.displayKingdom();
+  frog.displayKingdom();
+  snake.displayKingdom();
+  eagle.displayKingdom();
+  lion.displayKingdom();
   
